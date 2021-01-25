@@ -1,0 +1,8 @@
+<button label="form_red" (click)="form_red = !false">get form</button>
+
+<h2>Students</h2>
+  <ul class="students">
+    <li *ngFor="let student of students">
+      <span class="badge">{{student.surname}}</span> {{student.name}}
+    </li>
+  </ul>

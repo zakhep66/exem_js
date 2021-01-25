@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'surovitskiy1212';
+  isOn: boolean;
+  ngOnInit(): void {
+    this.isOn = false;
+  }
 }
